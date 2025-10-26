@@ -27,5 +27,28 @@
         "logged_by": "admin"
       }
     ]
+  },
+  {
+    "id": 3,
+    "submitted_by": "Test",
+    "category": "Test",
+    "description": "Test",
+    "priority": "Low",
+    "status": "Open",
+    "date": "2025-10-26 12:23",
+    "resolution_notes": "",
+    "last_updated": "2025-10-26 12:24",
+    "work_logs": [
+      {
+        "date": "2025-10-26 12:24",
+        "entry": "test",
+        "logged_by": "admin"
+      },
+      {
+        "date": "2025-10-26 12:24",
+        "entry": "multiple test",
+        "logged_by": "admin"
+      }
+    ]
   }
 ]
