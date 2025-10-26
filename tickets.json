@@ -27,5 +27,35 @@
         "logged_by": "admin"
       }
     ]
+  },
+  {
+    "id": 3,
+    "submitted_by": "I HATE YOU .COM",
+    "category": "Bigus Mikus",
+    "description": "raiders suck",
+    "priority": "High",
+    "status": "Open",
+    "date": "2025-10-26 01:58",
+    "resolution_notes": "chiefs win",
+    "last_updated": "2025-10-26 01:58",
+    "work_logs": [
+      {
+        "date": "2025-10-26 01:58",
+        "entry": "you almost had it",
+        "logged_by": "admin"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "submitted_by": "",
+    "category": "",
+    "description": "",
+    "priority": "Low",
+    "status": "Open",
+    "date": "2025-10-26 11:01",
+    "resolution_notes": "",
+    "last_updated": "",
+    "work_logs": []
   }
 ]
