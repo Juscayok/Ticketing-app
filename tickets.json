@@ -1,0 +1,31 @@
+[
+  {
+    "id": 1,
+    "submitted_by": "Big Mike",
+    "category": "Bigus Mikus",
+    "description": "Testing tester mc testerson",
+    "priority": "Medium",
+    "status": "Closed",
+    "date": "2025-10-26 00:57",
+    "resolution_notes": "",
+    "last_updated": "2025-10-26 01:02"
+  },
+  {
+    "id": 2,
+    "submitted_by": "I HATE YOU .COM",
+    "category": "You Suck",
+    "description": "Go back to your home on stupid whore island. ",
+    "priority": "High",
+    "status": "Closed",
+    "date": "2025-10-26 01:10",
+    "resolution_notes": "",
+    "last_updated": "2025-10-26 01:15",
+    "work_logs": [
+      {
+        "date": "2025-10-26 01:15",
+        "entry": "you still suck\r\n",
+        "logged_by": "admin"
+      }
+    ]
+  }
+]
