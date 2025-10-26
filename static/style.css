@@ -56,6 +56,7 @@ form input[type="text"], form select {
 	margin-right: 8px;
 	border: 1px solid rgba(255,255,255,0.08);
 	border-radius: 6px;
+}
 
 button {
 	padding: 8px 14px;
@@ -89,7 +90,6 @@ li { margin: 8px 0; }
 
 .work-log-entry p { margin: 5px 0; }
 .work-log-entry hr { border: none; border-top: 1px solid #eee; margin: 10px 0; }
-
 textarea[name="work_log_entry"] {
 		padding: 8px;
 	border: 1px solid rgba(255,255,255,0.06);
@@ -98,3 +98,4 @@ textarea[name="work_log_entry"] {
 		min-height: 100px;
 	background: rgba(255,255,255,0.02);
 	color: #e6eef6;
+}
