@@ -1,9 +1,18 @@
 from flask import Flask, render_template, request, redirect, url_for, session, send_file
 from datetime import datetime
 import json
+import os
 
 app = Flask(__name__)
-app.secret_key = 'your_secret_key'  # Needed for session management
+# Use environment variable for secret key in production
+app.secret_key = os.environ.get('FLASK_SECRET_KEY', 'your_secret_key')
+
+# Production configurations
+if os.environ.get('FLASK_ENV') == 'production':
+    app.config['SESSION_COOKIE_SECURE'] = True
+    app.config['SESSION_COOKIE_HTTPONLY'] = True
+    app.config['PERMANENT_SESSION_LIFETIME'] = 1800  # 30 minutes
+    app.config['JSON_SORT_KEYS'] = False
 
 # Load tickets from file if exists
 try:

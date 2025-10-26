@@ -8,7 +8,8 @@
     "status": "Closed",
     "date": "2025-10-26 00:57",
     "resolution_notes": "",
-    "last_updated": "2025-10-26 01:02"
+    "last_updated": "2025-10-26 01:02",
+    "work_logs": []
   },
   {
     "id": 2,
@@ -23,14 +24,13 @@
     "work_logs": [
       {
         "date": "2025-10-26 01:15",
-        "entry": "you still suck\r\n",
+        "entry": "you still suck",
         "logged_by": "admin"
       }
     ]
   },
   {
     "id": 3,
- main
     "submitted_by": "I HATE YOU .COM",
     "category": "Bigus Mikus",
     "description": "raiders suck",
@@ -49,16 +49,6 @@
   },
   {
     "id": 4,
-    "submitted_by": "",
-    "category": "",
-    "description": "",
-    "priority": "Low",
-    "status": "Open",
-    "date": "2025-10-26 11:01",
-    "resolution_notes": "",
-    "last_updated": "",
-    "work_logs": []
-
     "submitted_by": "Test",
     "category": "Test",
     "description": "Test",
@@ -79,6 +69,5 @@
         "logged_by": "admin"
       }
     ]
- docs
   }
 ]
