@@ -1,9 +1,16 @@
 <!DOCTYPE html>
 <html>
-<head><title>Submit Ticket</title></head>
+<head>
+  <title>Submit Ticket</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
 <body>
-  <h1>Submit a Ticket</h1>
-  <form method="POST">
+  <div class="container">
+    <header class="site-header">
+      <img class="logo" src="{{ url_for('static', filename='images/logo.png') }}" alt="Red Token logo">
+      <h1>Submit a Ticket</h1>
+    </header>
+    <form method="POST">
     Name: <input type="text" name="name"><br>
     Category: <input type="text" name="category"><br>
     Description: <textarea name="description"></textarea><br>
@@ -15,5 +22,7 @@
     </select><br>
     <button type="submit">Submit</button>
   </form>
+  <p><a href="/">Back to Dashboard</a></p>
+  </div>
 </body>
 </html>

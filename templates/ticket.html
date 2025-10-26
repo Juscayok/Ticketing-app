@@ -1,11 +1,15 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Ticket #{{ ticket.id }}</title>
-    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
-  </head>
+  <title>Ticket #{{ ticket.id }}</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
 <body>
-  <h1>Ticket #{{ ticket.id }}</h1>
+  <div class="container">
+    <header class="site-header">
+      <img class="logo" src="{{ url_for('static', filename='images/logo.png') }}" alt="Red Token logo">
+      <h1>Ticket #{{ ticket.id }}</h1>
+    </header>
   <p><strong>Submitted By:</strong> {{ ticket.submitted_by }}</p>
   <p><strong>Category:</strong> {{ ticket.category }}</p>
   <p><strong>Description:</strong> {{ ticket.description }}</p>
@@ -56,5 +60,6 @@
   </form>
   {% endif %}
   <a href="/">Back to Dashboard</a>
+  </div>
 </body>
 </html>
